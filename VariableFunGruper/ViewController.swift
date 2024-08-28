@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var horse: Double! //delcaring a non Optional(can't be nil)
     var ant: String = "" //declaring a variable (must initialize in init/constructor)
     var git = true
+    var home = false
     override func viewDidLoad() {
         super.viewDidLoad()
         
